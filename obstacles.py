@@ -6,8 +6,10 @@ import random
 Sqr = "square"
 Col = "white"
 
+
 class Obstacles():
     def __init__(self, x, y):
+        self.kierunek = 1
         self.o = Turtle(Sqr)
         self.o.color(Col)
         self.o.penup()
